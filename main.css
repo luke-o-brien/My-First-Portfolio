@@ -1,0 +1,151 @@
+/* D O C C U M E N T   G E N E R A L   S T Y L I N G  */
+* {
+  margin: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: 'raleway';
+}
+
+/* H E A D E R   S T Y L I N G */
+
+/* Navigation Bar Styling */
+.nav{
+  position: fixed;
+  right: 0;
+}
+
+li {
+  margin:20px;
+  display: inline;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Welcome Page Styling */
+
+.welcome-page {
+  background: rgb(100,1,1);
+  background: linear-gradient(153deg, rgb(100, 1, 1) 0%, rgba(255,0,0,1) 100%);
+  height: 100vh;
+  
+}
+.headline {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  height: 100vh;
+}
+h1 {
+  font-size: 150px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+/* About Me Page Styling */
+
+.about-me {
+  height: 100vh;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  padding:40px;
+}
+/*about flexbox*/
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 5%;
+}
+
+.about-text {
+  flex: 2;
+  margin: 1px;
+}
+
+.about-img {
+  flex: 1;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+img {
+  height: 70vh;
+  width: auto;
+}
+
+p {
+  width: 80%;
+  font-size: 30px;
+  font-weight: 100;
+}
+/* projects page styling */
+
+.portfolioboxes {
+  width: 100%;
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 500px 500px;
+  column-gap:2.5%;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 2px 5px 9px #888888;
+}
+
+#techlogo {
+  color: #727272;
+}
+
+.projectimg {
+  max-height: 200px;
+  width: auto;
+  padding: 10px;
+}
+
+h3 {
+  padding: 10px;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+button {
+  width: 90%;
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #727272;
+  color: #ffffff;
+
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* footer + contact styling */
